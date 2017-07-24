@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Super Cool Game Totally Yeah! :D</title>
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<div id="healthBars">
+			<div display: inline-block>Player Health</div><div id="playerHealth"><div id="playerHealthBar"></div></div>
+			<div display: inline-block>Enemy Health</div><div id="enemyHealth"><div id="enemyHealthBar"></div></div>
+		</div>
+		</br>
+		<canvas id="display" width=1000 height=400></canvas>
+		</br>
+		<button id="attack" hidden="false" onClick="fight(id)">Attack</button>
+		<button id="counter" hidden="false" onClick="fight(id)">Counter</button>
+		<button id="attack" hidden="false" onClick="fight(id)">Freeze</button>
+		<button id="attack" hidden="false" onClick="fight(id)">Block</button>
+		<button id="attack" hidden="false" onClick="fight(id)">Ignite</button>
+		<div id= "space" style='display:inline-block; opacity:.00001'> ______________________________________________</div>
+		<button id="attack" hidden="false" onClick="fight(id)">Finishing Blow</button>
+		
+		
+		</br>
+		<div>Round Results:</div>
+		<div id="announcements"></div>
+		
+	<script src="js/fight.js"></script>
+</body>
+</html>
